@@ -1,0 +1,14 @@
+{
+ "argv": [
+  "/Users/jimmy/EXTRAS/Complete-Data-Science-With-Machine-Learning-And-NLP-2025/Practice/venv/bin/python",
+  "-m",
+  "ipykernel_launcher",
+  "-f",
+  "{connection_file}"
+ ],
+ "display_name": "Python 3 (ipykernel)",
+ "language": "python",
+ "metadata": {
+  "debugger": true
+ }
+}

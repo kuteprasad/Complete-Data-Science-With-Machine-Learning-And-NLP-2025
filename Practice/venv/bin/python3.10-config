@@ -1,4 +1,4 @@
-#!/Users/jimmy/EXTRAS/Complete-Data-Science-With-Machine-Learning-And-NLP-2025/1-Practice/venv/bin/python3.10
+#!/Users/jimmy/EXTRAS/Complete-Data-Science-With-Machine-Learning-And-NLP-2025/Practice/venv/bin/python3.10
 # -*- python -*-
 
 # Keep this script in sync with python-config.sh.in

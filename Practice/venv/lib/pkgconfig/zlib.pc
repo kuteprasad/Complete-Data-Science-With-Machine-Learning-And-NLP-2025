@@ -1,12 +1,12 @@
-prefix=/Users/jimmy/EXTRAS/Complete-Data-Science-With-Machine-Learning-And-NLP-2025/1-Practice/venv
-exec_prefix=/Users/jimmy/EXTRAS/Complete-Data-Science-With-Machine-Learning-And-NLP-2025/1-Practice/venv
-libdir=/Users/jimmy/EXTRAS/Complete-Data-Science-With-Machine-Learning-And-NLP-2025/1-Practice/venv/lib
-sharedlibdir=/Users/jimmy/EXTRAS/Complete-Data-Science-With-Machine-Learning-And-NLP-2025/1-Practice/venv/lib
-includedir=/Users/jimmy/EXTRAS/Complete-Data-Science-With-Machine-Learning-And-NLP-2025/1-Practice/venv/include
+prefix=/Users/jimmy/EXTRAS/Complete-Data-Science-With-Machine-Learning-And-NLP-2025/Practice/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+sharedlibdir=${libdir}
+includedir=${prefix}/include
 
 Name: zlib
 Description: zlib compression library
-Version: 1.2.13
+Version: 1.3.1
 
 Requires:
 Libs: -L${libdir} -L${sharedlibdir} -lz
