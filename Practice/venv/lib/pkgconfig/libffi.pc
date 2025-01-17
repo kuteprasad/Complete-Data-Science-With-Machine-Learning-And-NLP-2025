@@ -1,0 +1,11 @@
+prefix=/Users/jimmy/EXTRAS/Complete-Data-Science-With-Machine-Learning-And-NLP-2025/1-Practice/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/jimmy/EXTRAS/Complete-Data-Science-With-Machine-Learning-And-NLP-2025/1-Practice/venv/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.4.4
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}

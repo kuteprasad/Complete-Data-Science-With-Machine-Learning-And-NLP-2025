@@ -1,0 +1,20 @@
+#
+# Author: Lasse Collin
+#
+# This file has been put into the public domain.
+# You can do whatever you want with this file.
+#
+
+prefix=/Users/jimmy/EXTRAS/Complete-Data-Science-With-Machine-Learning-And-NLP-2025/1-Practice/venv
+exec_prefix=/Users/jimmy/EXTRAS/Complete-Data-Science-With-Machine-Learning-And-NLP-2025/1-Practice/venv
+libdir=/Users/jimmy/EXTRAS/Complete-Data-Science-With-Machine-Learning-And-NLP-2025/1-Practice/venv/lib
+includedir=/Users/jimmy/EXTRAS/Complete-Data-Science-With-Machine-Learning-And-NLP-2025/1-Practice/venv/include
+
+Name: liblzma
+Description: General purpose data compression library
+URL: https://xz.tukaani.org/xz-utils/
+Version: 5.4.6
+Cflags: -I${includedir}
+Cflags.private: -DLZMA_API_STATIC
+Libs: -L${libdir} -llzma
+Libs.private: -pthread -lpthread
